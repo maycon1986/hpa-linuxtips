@@ -22,7 +22,7 @@ spec:
             value: redis-service
           resources:
             limits:
-              memory: 32Mi
+              memory: 64Mi
               cpu: 0.02
           ports:
             - containerPort: 5000
